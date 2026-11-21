@@ -1,0 +1,13 @@
+رفع V6 إلى GitHub من الهاتف:
+
+1) فك ضغط CITY-LIFE-3D-V6-OUTBREAK-PROJECT.zip بواسطة MT Manager.
+2) افتح محتويات المجلد المستخرج.
+3) ارفع محتويات جذر المشروع إلى جذر مستودع GitHub، مع الحفاظ على المسارات:
+   - src/main.c
+   - assets/music/...
+   - assets/ui/arabic-ui.png
+   - .github/workflows/android-apk.yml
+4) لا ترفع المجلد _syntax_stub؛ فهو غير موجود في حزمة التسليم.
+5) بعد اكتمال الرفع، افتح GitHub > Actions.
+6) اختر Build CITY LIFE 3D V6 Outbreak APK.
+7) عند نجاح التشغيل، افتح Artifacts وحمّل CITY-LIFE-3D-V6-OUTBREAK-APK.
